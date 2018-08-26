@@ -1,0 +1,11 @@
+发个面经攒人品，求offer。上周刚onsite的
+电面：
+给一个排序的数组，和一个target value，找出target的起始终止index
+lc 285， follow up 是successor 改为predecessor
+
+onsite：
+1 给两个非常长的sparse数组，求 dot product。要求对数组分别预处理，要另外选择数据结构来存储处理的结果。之后二分找对应的数
+2 具体题目忘了，就是二叉树的遍历的变形
+3 第一题是给一个只有0和1的矩阵，和范围，求这个范围内的1的出现次数。第二题lc 20, follow up 符号不仅限于()[]{}，会给符号对，比如’6’ - ‘9’。
+4 20 分钟BQ。lc 273，follow up是数可能很大，给一个hashmap 存了每隔3位的表示法，比如million, billion等等
+
