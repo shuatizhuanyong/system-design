@@ -1,0 +1,5 @@
+高频
+国人姐姐面试，聊简历，讲项目，题目就一个，给一堆 str1-str2的inputs，str1 和 str2 不能属于同一类，找这些input组成的graph是不是bipartite的。第一次出现的str1 str2可以任意归类。LZ开始题目理解错了，代码写到一半，被提醒，clarify之后继续写完。然后就是问时空复杂度。
+
+由于讨论耽搁了时间，写完还剩20分钟，姐姐说时间不够写一题了，就随便聊聊吧。然后话题跑到了multi-label classification的logistic regression上，讨论了一下如何设计loss function，
+multi-label该如何处理，如何防止overfit，不同算法的复杂度，等等。  完全没准备这个，幸好LZ的data mining基础还比较扎实，侥幸过关。

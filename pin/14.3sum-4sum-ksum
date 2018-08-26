@@ -1,0 +1,3 @@
+ksum may need dp to solve
+There is recursive solution: https://github.com/guibin/Knowledge/blob/master/libs/lib.algorithm/src/main/java/guibin/zhang/leetcode/permutationAndCombination/KSum.java
+

@@ -1,0 +1,12 @@
+输入pins = [{'id':1, 'height': 100}, {'id':2, 'height':300}, {'id':3, 'height':150}.....], col = 3
+     返回 [[1,.....],[2,...],[3,...]] list of list。 每个list含有一个col安排的图片的编号
+B : minheap O(nlogk) n:number of pins  k: col
+A : 如果不让用heap 你会用什么？
+B : array + binarysearch
+
+A : 如果连binarysearch都不用， 给一个最最基础的
+B : O(nk) 每次扫描所有col得到最小的index. 
+A : 什么时候我们想用 O(nk) 的方法. 
+B : k 很小， logk, k 都是常数级别
+ref:
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=296325&highli

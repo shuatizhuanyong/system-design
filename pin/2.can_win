@@ -1,0 +1,30 @@
+CanWin. 给一个数组比如 [2,3,0,3,5]和一个index比如4，从这个index每次可以向左或者向右跳ary[index]的距离， 如果能跳到值为0的index则返回true
+
+不知道我理解的对不对， 感觉似乎就需要做一个dfs 或者bfs 就行了吧？ 还是有其他思路？ 我写了一个简单的dfs解法， 请大家帮忙看下， 谢谢。
+
+public boolean canWin(int[] board, int pos){
+    boolean[] visited = new boolean[board.length];
+    return canWin1(board, pos, visited);
+}
+public boolean canWin1(int[] board, int pos, boolean[] visited){
+    if(visited[pos])
+        return false;
+    visited[pos] = true;
+
+    if(board[pos] == 0)
+        return true;
+    if(pos  + board[pos] < board.length -1){
+        if(canWin1(board, pos+ board[pos], visited)){
+
+            return true;
+        }
+
+    }
+
+    if(pos - board[pos] >= 0){
+        if(canWin1(board, pos - board[pos],visited)){
+            return true;
+        }
+    }
+    return false;
+}
