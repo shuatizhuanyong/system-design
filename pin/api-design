@@ -1,0 +1,8 @@
+# graphql vs restful api
+* GraphQL能够通过一次查询得到所有需要的数据，从而减少网络跳转的次数。
+* GraphQL采用所见即所得模型，这样客户端代码不易出错。
+* RESTful HTTP通过使用状态码和HTTP verb，提高了结果的一致性和可预测性。
+* 借助超媒体，在用户使用API时可以“发现”资源间的关系，这简化了RESTful用户的具体实现。
+* HTTP实现了缓存机制而GraphQL还没有实现。
+* GraphQL给用户提供了schema，这很有用，但是需要注意的是接口描述并非API文档。
+ref: https://www.infoq.com/news/2017/07/graphql-vs-rest
