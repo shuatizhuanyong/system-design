@@ -1,0 +1,98 @@
+# 1. system design 选秀节目 deisgn一个最后15分钟观众投票系统
+ref:  http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=443912&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D5%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26sortid%3D311
+
+# 2. - dive deep project （问了三次）
+- most proud project （问了两次）
+- If you are to redo this project today, what would you do differently (问了两次） followup: why didn't you do it in the first place?
+- example where your decision improved customer experience / product quality
+- how to train junior engineers, how to lead them.本文原创自1point3acres论坛
+- example where you simplified a complex problem
+- show a project where you need to collaborate with multiple teams
+- show how you convince others to commit to your idea
+* ref: http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=320106&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D5%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26sortid%3D311
+
+
+# 3.
+第一轮 两个咖喱小哥哥（？也许不是）都工作了一年左右 主要是一号小哥问问题打字，二号小哥纯打字不出声，和口音相当重的一号半蒙带猜欢乐地聊完一堆BQ之后 coding题问的是涂色，就是画图工具那个填色，特别简单，我开始用了recursion,一号问说巨大的图怎么办，我就说再大的图，你要改的地方不大就行啦，然后小哥说就是要改的巨大，那我就想recursion的确性能不行，那就iteration呗，傻兮兮地想遍历的办法，结果突然就像柯南破案时候那个一道闪电打过！艾玛，这不是BFS嘛！然后就吭哧吭哧重新写代码。两个都写完正好时间到了，感觉一号有点不开心，心里有点方，感觉要没戏了，赶紧再找小哥挽回一下，结果1号还是不太开心，但是开始冷脸的二号开始笑嘻嘻的，结果一轮完了，他俩出去走了两步发现没地方可以去，又回来了！chance啊！我赶紧找他俩坐下又唠了几句，1号继续冷脸，二号继续笑眯眯，不知为啥。。。微笑送走。。。后来二号小哥哥路过我房门的时候还微笑跟我打了个招呼
+
+.本文原创自1point3acres论坛
+第二轮 一个资深淡定咖喱小姐姐，说是已经工作了六七年了，见证亚麻的成长。也是先BQ，问完了之后，问了找出输入串istream里的各字符中最早出现的distinct的那个字符，我就hashmap搞定了，感觉也好简单，问了时间复杂度，也没别的follow up啥的，问完问题聊了聊公司就走了.本文原创自1point3acres论坛
+来源一亩.三分地论坛. 
+
+第三轮 两个dev manager，我猜应该就是bar raiser了，一个穿粉色polo衫的商务精英帅大叔主考官和一个穿印满粉色火烈鸟polo衫的澳洲口音（他自己说的）缓和气氛萌大叔shadow，问完BQ之后问了一个设计vending machine的题，而且要求找的零钱数量越少越好。我中间定义硬币的时候还因为不知道5分硬币叫啥问了一下，萌大叔立马接上说 这道题考的就是美国文化的认知，然后说开个玩笑，他也不知道。反正很萌！然后帅大叔告诉我了之后，我发现我还是不会拼，就这样吧，再问拼写有点傻，我就直接写五分了。。。最后我问问题的时候，时间有多，聊着聊着结果跟萌大叔聊得有点嗨，原来亚麻现在在加拿大推广的不太好，我立马说，就是就是，我现在在学商，知道全球化可难了，差点想给他背个波特的五力法则，然后发现帅大叔有点无聊之后，赶紧弥补一下，结果气氛又有点冷，我问了两个问题脑子有点空白，帅大叔就问我说，你不想知道你要去的组的详情吗？我心里一个哆嗦，艾玛，药丸！关键的忘问了！然后就赶紧问了，帅大叔一顿自豪地介绍之后，我有点想买个fire tv是怎么回事。。。
+
+
+第四轮 是我最喜欢的一个疑似咖喱小哥哥（也可能是中东的？所以我说我分不出来啊），有点口音，刚工作了9个月，一脸朝气蓬勃长的也帅！斯斯文文的简直是我的type！他貌似是唯一一个看了我的简历的，还说我的经历很有趣。BQ的时候，我说的好了，他就说“make sense”，感觉简直是在夸我编得好，编的真有道理！我说偏了，他就赶紧让我再换个例子。。。然后一个设计题，是给了很多很多不间断的log，里面有各个模块，其中有个exception模块，好几条log拼成一个完整的exception，找出某个特定的app的Top 5的exception模块。我第一直觉用PriorityQueue，后来还是改HashMap了，全程小哥哥看我方向偏了就来提醒我，最后顺利设计了几个类和function就过了，我问问题的时候，觉得他挺亲近，就问了他传说中的加班问题。他说他每天10点上班，6点下班！纳尼(òωóױ)！这跟我听到的完全不一样啊！！！他每天都过得特别充实开心！他出门的时候，说他应该是最后一轮了，然后会是HR把我送走或者还要见什么人，结果正好HR来了，他问了之后，有点失望的祝我好运，所以我那时候满心都是凉凉了。。。
+
+
+总结一下，我觉得我这次真心运气挺好，题目都超简单，以后可能再也碰不到这么简单的题了。。。
+
+
+还有BQ虽然大家都说好好准备，不过我觉得最关键的还是编故事以及即兴根据已有经历或者素材编故事的能力！以上！
+
+ref:  http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=443341&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D5%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26sortid%3D311
+
+
+# 4 
+Hired 上面联系的, 以前也找人内推过, 因为以前cpt 所以一直没理我 面的是AWS CloudFront SDE2 (aws只要sde2+)
+没有电话聊天, 直接OA, 两道很简单的题目, case注意下就没问题 
+oa后直接onsite 
+第一轮, 系统设计+ 15mins bq, 设计Twitter的timeline, [请大神帮忙看看]. 一亩-三分-地，独家发布
+上来先bq, disagree问题, I:  project is using hibernate,  I suggest to use spring data instead of old design, the benefit is convenient and efficient (templates ), the result is group disagree my idea, 
+I disagree but commit to it (amz principle), and in the future, and we have extra time we do the refactoring.
+the interviewer is confusing about it, I cannot clarify very well, shadow helps me to explain, spring data just add another layer.
+这块 解释的不好, 自己需要仔细搜搜如何解释 spring data 和 hibernate (其实都是orm)
+系统设计 twitter
+我照本宣科地说了 qps等计算, 算出了 40M/s 感觉这块完全是多余自己提, 面试官不感兴趣好像 [留个疑问在这里, 系统设计这种estimate 需要做么??]
+之后, 讲了最简单的 timeline 设计, 所有followers 获取tweet, 之后排序 aggregate, 返回. 面试官: make sense high level :  API server => DB 
+followup, case 如果 川普发了句, 我明天9点发tweet, 1m 用户准时不断刷, 怎么处理.. visit 1point3acres for more.
+sharding 方面, 如果川普的tweet都在一个db里, 我分析的是, 所有request 会 hit 某一个 db, heavy load, 所以 db要 shard by tweetID to make sure data is shared evenly.
+面试官:  how can the user get the tweetIds, 
+我: user 会首先 拿到所有 follower的userid (包含Trump), 然后查询 所有db, 返回对应的 tweets,  (我当时脑子短路, 以为设计的是 userid : [tweets] 的结构, 其实应该是 tweetID, Uid tweetId 做主键和shard id,  ) 这样就不会heavy load 某一个db, 所以当时答的含糊其辞)
+我: 当时shadow 问的是 shard by uid or tid, 我就说了 tid, 
+之后我补充了 要加 cache, . from: 1point3acres 
+之后也没下文了, 不知道最后结果是什么
+之后 问我 工作经验相关,  如何test 自己设计的系统 可用, 我说了 spring eureka 里可以提供dashboard 检测 内存占用, cpu占用, 之后 可以做集成测试, 压力测试.
+面试官 做了笔记, 问还有什么, 
+我: 想不出还有什么, 其实还可以说 to make available, we can provide replica instances, to avoid single point failure. 但我觉得他更考察你的经验, 相关的tool
+如果让我再回答一遍 我可能这么说:
+first, make every service functionally work, pass the unit test. 
+second, make integration work, RPC call,  (microservices集成测试, 大神给点意见, 什么工具之类的)
+third, high available (pressure test, single point failure)
+其实最重点不知道他考哪里, 感觉就tm想问 unit test? 其实有时候不知道对面问题的level是什么
+
+lunch 
+bq狂聊, challenging project, 讲了自己搞sub domain cookie的事情, 感觉不在他的兴趣点上, 感觉bq其实™的是看你工作经验.
+第三轮
+印度小哥, back traverd 算法题, 
+第四轮
+猜测bar raiser, principal engineer,
+tree node 里包含 left node 的数目, 查找inorder(忘了是preorder 还是什么order) 第x个node,  dfs举例, 几行秒掉
+设计 CloudFront, 对你没听错. From 1point 3acres bbs
+我: 
+www.google.com/aa.jpg 作为key, 内容作为 value,  in-memory cache,  可以考虑用db作为数据backup
+之后问了我 lru , 我给出了算法设计 (最佳解)
+问高频查询情况, 给了lfu
+面试官total agree, 很开心. 一亩-三分-地，独家发布
+这轮感觉不会有问题, 不过传说中的 bar raiser 过了就没事, 应该是童话故事.
+第四轮
+ood , 主要考继承 抽象类
+bq 问我性能和可读性 怎么考虑. 围观我们@1point 3 acres
+我脑抽的说了 先尽量搞定性能, 我其实是英语没听太懂, bq最难的其实就是英语!
+
+希望给大家点帮助, 个人建议, 面试官良莠不齐, 一定要跟住对方的思路和方向, 已经查考点, 你即使知道各种fansy, 他可能只考你 class level的基础.
+* ref: http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=438717&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D5%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26sortid%3D311
+
+
+# 5
+
+1. 白人小哥和国人shadow bq + log题目，有customID，sessionID，timestamp，url，返回top 5 most frequent last update的session的url
+解释有点复杂，其实就是log里面的一个session会有很多url，假设最后一个url才是要统计的，之前的都不算，找到所有last url一样的session的count，top 5 most
+2. 隔壁组的白人manager，听一块的小伙伴说是bar raiser。 bq + 第一个非重复的字符，要求一遍， 然后问了个树序列化，开始蒙了说了要用前序+中序两个遍历来保存树的结构，后来提醒说任意字符都能保存，才想起来应该直接一个前序就行，然后解释完了没有code
+3. 国人manager+白人manager， bq+设计社交网络
+4. 三哥 bq+蠡口其实无，从hashmap方法说起，讲了几个笨办法，但是说到hashmap的方法就让我写了，没有写两个指针，不知道有没有被坑；
+一个巴士有好几个stop [1，2，5]， [5， 8，9]， [8，7，6]，起点2，终点7，最少换乘的巴士数量
+* ref: http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=430561&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D5%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26sortid%3D311
+
+
+
